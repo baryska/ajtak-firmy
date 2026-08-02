@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { Flex, SmartImage, Text } from '@/once-ui/components';
 import { useInView } from 'react-intersection-observer';

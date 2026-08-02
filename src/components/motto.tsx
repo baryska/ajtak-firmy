@@ -1,3 +1,4 @@
+"use client";
 import { Flex, Text } from '@/once-ui/components';
 import React, { useEffect, useState } from 'react';
 import styles from './Motto.module.scss';

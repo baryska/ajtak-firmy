@@ -1,10 +1,10 @@
+"use client";
 import { urlFor } from '@/lib/sanity';
 import { SmartImage, Text } from '@/once-ui/components';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import styles from './Services.module.scss';
 import globalStyles from '../app/Home.module.scss';
 import { useInView } from 'react-intersection-observer';
-import { fetchServices } from '@/api/services';
 
 interface Img {
   asset: {
@@ -19,20 +19,10 @@ interface Service {
   text: string,
 }
 
-const Services = () => {
-  const [services, setServices] = useState<Service[]>([])
+const Services = ({ services }: { services: Service[] }) => {
   const { ref, inView } = useInView({
     threshold: 0.2,
   });
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const data = await fetchServices();
-      setServices(data)
-    }
-    fetchData();
-  }, [])
-
 
   return (
     <>
