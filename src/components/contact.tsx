@@ -79,8 +79,7 @@ const Contact = (): JSX.Element => {
             marginBottom="40"
             className={styles.aboutMeText}
           >
-            Jsem IT expert s více než dvacetiletou praxí ze soukromé i státní sféry a pomáhám školám s digitálními technologiemi.
-            Mám dvě školou povinné děti.
+            Jsem IT expert s více než dvacetiletou praxí ze soukromé i státní sféry a pomáhám firmám s digitálními technologiemi.
           </Text>
         </Flex>
         © 2026

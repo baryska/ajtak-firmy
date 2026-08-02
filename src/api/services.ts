@@ -13,7 +13,7 @@ interface Service {
 
 export const fetchServices = async () => {
   const query = `
-    *[_type == "serviceItem"]{
+    *[_type == "serviceItemCompany"]{
       key,
       text,
       image,
