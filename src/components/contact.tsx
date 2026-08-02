@@ -55,7 +55,7 @@ const Contact = (): JSX.Element => {
             >
               <FontAwesomeIcon icon={faEnvelope} className={styles.emailIcon} />
               <Text variant="heading-default-xl">
-                <a href="mailto:vaclav@ajtakproskoly.cz">vaclav@ajtakprofirmy.cz</a>
+                <a href="mailto:vaclav@ajtakprofirmy.cz">vaclav@ajtakprofirmy.cz</a>
               </Text>
             </Flex>
           </Flex>
