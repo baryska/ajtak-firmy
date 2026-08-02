@@ -57,7 +57,7 @@ const Pricing = (): JSX.Element => {
         </div>
       </Flex>
       <p className={styles.footerText}>
-        (Ceny jsou orientační - konkrétní podmínky rád domluvím na osobní schůzce)
+        Ceny jsou orientační - konkrétní podmínky rád domluvím na osobní schůzce
       </p>
     </div>
   );

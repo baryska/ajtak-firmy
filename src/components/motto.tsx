@@ -36,7 +36,7 @@ const Motto = (): JSX.Element => {
           as="div"
           className={styles.text}
           style={{ color: '#1e5e8e' }}
-        >Vzdělávání
+        >Podnikání
           <span className={styles.text} style={{ color: 'black' }}>.</span>
         </Text>
       </div>
